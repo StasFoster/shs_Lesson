@@ -1,0 +1,5 @@
+﻿  OS_Leson.cpp
+OS_Leson.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct ImGuiContext * __cdecl ImGui::CreateContext(struct ImFontAtlas *)" (?CreateContext@ImGui@@YAPEAUImGuiContext@@PEAUImFontAtlas@@@Z) в функции main.
+OS_Leson.obj : error LNK2019: ссылка на неразрешенный внешний символ "bool __cdecl ImGui::Begin(char const *,bool *,int)" (?Begin@ImGui@@YA_NPEBDPEA_NH@Z) в функции main.
+OS_Leson.obj : error LNK2019: ссылка на неразрешенный внешний символ "bool __cdecl ImGui::DebugCheckVersionAndDataLayout(char const *,unsigned __int64,unsigned __int64,unsigned __int64,unsigned __int64,unsigned __int64,unsigned __int64)" (?DebugCheckVersionAndDataLayout@ImGui@@YA_NPEBD_K11111@Z) в функции main.
+C:\Users\Tas Shustov\Project\shs_Lesson\OS_Leson\OS_Leson\x64\Debug\OS_Leson.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
