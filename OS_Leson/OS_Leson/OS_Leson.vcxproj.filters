@@ -30,5 +30,13 @@
     <ClCompile Include="OS_Leson.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="UIControler.cpp">
+      <Filter>Исходные файлы\View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UIControler.h">
+      <Filter>Исходные файлы\View</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

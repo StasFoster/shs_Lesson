@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="OS_Leson.cpp" />
+    <ClCompile Include="UIControler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UIControler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

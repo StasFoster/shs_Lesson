@@ -1,13 +1,14 @@
-﻿// OS_Leson.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
-#include <iostream>
-
+﻿#include "UIControler.h"
 
 int main()
 {
+    UIController con;
 
-    std::cout << "Hello World!\n";
+    UIController::Print("SAS");
+    
+    vector <string> s{ "1","1" ,"1" ,"1" ,"1" ,"1" };
+    con.PrintMas(s);
+        
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
